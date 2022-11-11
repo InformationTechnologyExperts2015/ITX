@@ -1,0 +1,399 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.cuerpo{
+    background-color: rgb(7, 13, 110);
+   
+}
+/* MENU DE CABECERA*/
+/*---------------------------------------------------------------------*/
+#menuu{
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    justify-content: left;
+    /* position:fixed;
+	z-index:1000;
+	top:0; */
+	width:100%;
+}
+
+.relleno{
+    margin-bottom: 125px;
+    
+}
+
+#navul3{
+    border-color: rgb(119, 101, 101);
+    background-color: rgb(56, 53, 53);
+}
+.navaa{
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.textmenu:hover{
+    color: aliceblue;
+    
+}
+.textext{
+    margin-top:125px;
+}
+#menutext{
+    align-content: right;
+}
+.text1{
+    color: white;
+    font-size: calc(1em + 2vw);
+    text-shadow: 5px 15px 5px black;
+}
+.text2{
+    color: white;
+    font-size: calc(2em + 4vw);
+    text-shadow: 5px 15px 5px black;
+
+}
+/* .textext{
+    
+    margin-top: 350px;
+    margin-left: 80px;
+    margin-bottom: 150px;
+    
+}  */
+
+.imgvid{
+    width: 400x;
+    height: 400px;
+    
+}
+/* .butonbuscar{
+    border-radius: 10px;
+    border-color: rgb(46, 46, 48);
+    color: rgb(46, 46, 48);
+    background-color: rgb(56, 53, 53);
+    margin-left: 13px;
+}
+.butonbuscar:hover{
+    color: rgb(243, 239, 239);
+    background-color: rgb(46, 46, 48);
+    transform: scale(1.2);
+
+}
+.butonescribir{
+    border-radius: 10px;
+    border-color: rgb(112, 112, 128);
+    color: rgb(81, 88, 88);
+    background-color: rgb(219, 233, 233);
+} */
+
+.textmenu{
+    color: rgb(182, 165, 165);
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+
+.navaa {
+    background-image: linear-gradient(
+      to right,
+      #ffffff,
+      #ffffff 50%,
+      rgb(197, 187, 187) 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    font-size: 22px;
+    
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+ .navaa:before{
+    content: '';
+    background:       #ffffff    ;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+    
+  }
+  
+  .navaa:hover {
+   background-position: 0;
+   font-size: 25px;
+  }
+  
+  .navaa:hover::before{
+    width: 100%;
+   
+  }
+
+
+
+.navul{
+color: rgb(27, 20, 20);
+}
+.logodx{
+width: 260px;
+height: 100px;
+border-radius: 20px;
+opacity: 70%;
+}
+/*---------------------------------------------------------------------*/
+/* PIE DE PAGINA FOOTER*/
+/*---------------------------------------------------------------------*/
+#footdx{
+    
+    bottom: 0;
+}
+.textfoot{
+    text-decoration: none;
+}
+/*---------------------------------------------------------------------*/
+/* MAIN PAGINA*/
+/*---------------------------------------------------------------------*/
+main h1{
+    color: white;
+    /* text-shadow: 5px 8px 5px; */
+}
+main{
+     /* background-color: rgba(3, 9, 43,0.5);  */
+    background-color:#060b21;
+    color: white;
+    font-size: 2rem;
+    
+    padding: 10px;
+    position:static;
+}
+main h1{
+    text-align: center;
+}
+.linea1 {
+    border: 1px solid rgb(226, 241, 226) ;
+    width: 15%;
+    margin: auto;
+    }
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    
+  }
+.imgserv{
+    padding-top: 20px;
+    width: 100%;
+    height: 300px;
+
+}
+.linea{
+    border: 3px solid rgb(9, 10, 9);
+}
+
+.quienesomos{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .imgnosotros{
+    border-radius: 100px 30px 100px 30px;
+  
+    width: 100%;
+    height: 400px;
+    padding-bottom: 15px;
+padding-top: 15px;
+  }
+  .imgnosotros:hover{
+    filter: brightness(0.5);
+    transform: scale(1.025);
+  }
+.quienes{
+  color: rgb(245, 233, 233);
+  text-align: center;
+  padding-top: 5px;
+  font-size: 25px
+  
+}
+.imgslogan{
+ width: 100%;
+height: auto;
+}
+.slogandiv{
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto; 
+}
+/*---------------------------------------------------------------------*/
+/* ASIDE PAGINA*/
+/*---------------------------------------------------------------------*/
+
+/*del welson cpg*/
+.contenedor-PF{
+    box-shadow: 0 0 15px -1px rgba(0,0,0,.1);
+    padding: 30px;
+}
+
+.contenedor-PF .titulo{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.contenedor-PF .Preguntas{
+    box-shadow: 0 0 15px -1px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.contenedor-PF .Preguntas .pregunta{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(43, 51, 122, .2);
+    padding: 20px 20px 20px 20px;
+    transition: .4s;
+}
+
+.contenedor-PF .Preguntas .pregunta .mas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px -1px rgba(0,0,0,.2);
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.contenedor-PF .Preguntas .pregunta .mas:hover{
+    box-shadow: 0 0 15px -1px rgba(0,0,0,.4);
+}
+
+.contenedor-PF .Preguntas .respuesta{
+    position: relative;
+    padding: 0 20px 0 20px;
+    overflow: hidden;
+    height: 0;
+    transform: .4s;
+}
+.contenedor-PF .Preguntas .respuesta .p{
+    font-size: 1.3rem;
+}
+/*---------------------------------------------------------------------*/
+/*SERVICIOS IMAGENES*/
+/*---------------------------------------------------------------------*/
+.car{
+    position: relative;
+    height: 300px;
+}
+.car .fac{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+.car .fron{
+    transform:perspective(600px)rotateY(0deg);
+    box-shadow: 0px 10px 15px #000;
+    cursor: pointer;
+}
+.car .fron img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.car .fron h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background:rgba(0,0,0,0.5);
+    text-align: center;
+}
+.car .bak{
+    transform:perspective(600px)rotateY(180deg);
+    background:rgba(27, 20, 20,0.5);
+    padding: 0px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    text-align:center;
+    box-shadow: 0 5px 10px #000;
+    cursor: pointer;
+}
+.car .bak h3{
+ font: size 30px;
+ margin: top 20px;
+ letter-spacing: 2px;
+}
+.car .bak p{
+    letter-spacing: 1px;
+    font-size:20px;
+}
+.car:hover .fron{
+    transform:perspective(600px)rotateY(360deg);
+}
+.car:hover .bak{
+    transform:perspective(600px)rotateY(360deg);
+}
+.car:hover .titulo{
+    display: none;
+}
+.linea3{
+    border: 2px solid rgb(250, 250, 250,0.9);
+    width: 75%;
+    margin: auto;
+}
+.titulo{
+    margin-top: 5px;
+}
+
+.carroselxd{
+
+    margin: auto;
+    width: 85%;
+}
+
+nav.sticky{
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 8%;
+    background: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgmarcas{ 
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+

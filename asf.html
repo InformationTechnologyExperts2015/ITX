@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="col-lg-3 mb-3 mb-lg-0 car ">
+        <div class="fac fron">
+          <img
+        src="https://www.claro.com.co/portal/co/recursos_contenido/1623864063893.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      />
+          <h3>
+            Redes de Datos
+          </h3>
+        </div>
+        <div class="fac bak">
+            <h3>Redes de Datos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, porro!</p>
+        </div>
+    </div>
+       
+        <style>
+.car{
+    position: relative;
+    width: 300px;
+    height: 350px;
+}
+.car .fac{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+.car .fron{
+    transform:perspective(600px)rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+.car .fron img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.car .fron h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background:rgba(0,0,0,0.4);
+    text-align: center;
+}
+.car .bak{
+    transform:perspective(600px)rotateY(180deg);
+    background:rgb(27, 20, 20);
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    text-align:center;
+    box-shadow: 0 5px 10px #000;
+
+    
+}
+.car .bak h3{
+ font: size 30px;
+ margin: top 20px;
+ letter-spacing: 2px;
+}
+.car .bak p{
+    letter-spacing: 1px;
+}
+.car:hover .fron{
+    transform:perspective(600px)rotateY(360deg);
+}
+.car:hover .bak{
+    transform:perspective(600px)rotateY(360deg);
+}
+        </style>
+    </div>
+</body>
+</html>
