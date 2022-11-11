@@ -1,6 +1,7 @@
 body{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'VLNL Decks', Times, serif;
 }
+
 .cuerpo{
     background-color: rgb(7, 13, 110);
    
@@ -45,7 +46,7 @@ body{
 }
 .text1{
     color: white;
-    font-size: calc(1em + 2vw);
+    font-size: calc(2em + 4vw);
     text-shadow: 5px 15px 5px black;
 }
 .text2{
