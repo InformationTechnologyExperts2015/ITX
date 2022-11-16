@@ -419,7 +419,8 @@ text-align: center;
 }
 .rellenomarcas{
    width: 100%;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: calc(15px + 0.6vw);
 } 
 .imglol:hover>div{
     visibility: visible;
