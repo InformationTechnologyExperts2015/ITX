@@ -173,7 +173,7 @@ main{
     padding: 10px;
     position:static;
 }
-main h1{
+main h3{
     text-align: center;
 }
 .linea1 {
@@ -418,7 +418,7 @@ text-align: center;
     position: relative;
 }
 .rellenomarcas{
-   
+   width: 100%;
     font-size: 25px;
 } 
 .imglol:hover>div{
