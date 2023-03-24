@@ -404,8 +404,8 @@ position: absolute;
 } */
 .imglol>div{
 
-position: absolute;
-text-align: center;
+    position: absolute;
+    text-align: center;
     visibility: hidden;
     transition: all 500ms ease-out;
     width: 100%;
@@ -429,7 +429,12 @@ text-align: center;
 .imgmarcas:hover{
   opacity: 0.2;
 }
-
+.textmarcas{
+    visibility: hidden;
+}
+.textmarcas:hover{
+    visibility: visible;
+}
 
 
 
